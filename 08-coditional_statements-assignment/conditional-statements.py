@@ -133,3 +133,117 @@ elif marks4 >= 75:
     print("good")
 else:
     print("failed")
+
+#18
+
+marks5=int(input("Enter a number : "))
+if marks5>0 :
+    if marks5>100 :
+        print("given number is greter than 100")
+else:
+    print("given number is negative")        
+
+#19
+
+age2=int(input("Enter Your age : "))
+if age2>=18 :
+    if age2<=60 :
+        print("Your age is between 18 and 60.")
+else:
+    print("your age is eigher greter than 60 or lessthan 18.")
+
+#20
+
+num3=int(input("Enter a number : "))
+if num3!=0 :
+    if num3>0 :
+        print("given number is positive")
+    elif num<0 :
+        print("given number is negative")    
+else:
+    print("given number is zero")      
+
+#21
+
+age3=int(input("Enter Your age : "))
+marks6=int(input("Enter Your marks : "))
+if age3>=18 and marks6>=40 : 
+    print("Your are Eligible for Higher study ")
+else:
+    print("You are'nt eligible for higher study !!!\n better luck next time!!")    
+
+#22
+
+num4=int(input("enter a number : "))
+if num4>10 and num4<100 : 
+    print("Your number is special !!")
+else:
+    print("Your number is normal")
+
+#23
+
+age4=int(input("Enter Your age : "))
+has_id=True
+if age4>=18 and has_id==True: 
+    print("Allowed to give exam")
+else:
+    print("Your are not allowed for giving exam!!")
+
+#24
+
+first_number=int(input("Enter first number :"))
+second_number=int(input("Enter second number :"))
+if first_number>10 and second_number>10 :
+    print("both number are greter than 10")
+else:
+    print("both number are lessthan 10")
+
+#25
+
+num5=int(input("Enter first num : "))
+if num5<0 or num5>100 :
+    print("given num is either less than 0 or greater than 100")
+else:
+    print("given num is between 0 to 100")
+
+#26
+
+is_closed=False
+if not is_closed :
+    print("open door")
+else:
+    print("closed door")    
+
+#27
+
+num6=int(input("Enter a number:"))
+if num6>10 and num6<50 :
+    print("taken number id between 10 and 50.")
+else:
+    print("taken number is not between 10 and 50.")
+
+
+#28
+
+if num7 >10 or num<50:
+    print("it is outside of range")
+
+#29
+
+is_student=bool(input("youe are student"))
+has_id1=bool(input("you have id"))
+has_ticket=bool(input("you have ticket"))
+if is_student == True:
+    if has_id1 == True:
+        if has_ticket == True:
+            print("allowed")
+
+#30
+
+age5=int(input("enter your age"))
+mark=int(input("enter your mark"))
+has_id2=bool(input("you have id??"))
+if age5 >= 18 and mark >= 40 and has_id2 is True:
+    print("eligible")
+else:
+    print("not eligible")
