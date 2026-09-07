@@ -133,5 +133,3 @@ elif marks4 >= 75:
     print("good")
 else:
     print("failed")
-
-#18
