@@ -1,0 +1,14 @@
+#1
+
+# a=int(input("Enter One Number : "))
+# b=int(input("Enter Second Number : "))
+# print(a+b)
+
+#2
+
+Num=int(input("Enter a number :"))
+if Num%2==0:
+    print("Given number is Even !!")
+else : 
+    print("given number is Odd !!") 
+
