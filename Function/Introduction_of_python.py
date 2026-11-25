@@ -33,11 +33,8 @@ show_rules()
 
 
 # 5. 
-def show_square():
-    print("****")
-    print("****")
-    print("****")
-    print("****")
+def show_square(n):
+    print(n**2)    
 
 show_square()
 

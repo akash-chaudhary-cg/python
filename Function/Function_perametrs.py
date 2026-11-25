@@ -1,5 +1,4 @@
-
-# 1. 
+# 1. Welcome
 def welcome():
     print("Welcome to Python")
 
