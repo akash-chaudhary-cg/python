@@ -3,14 +3,14 @@
 # Q=1
 
 def a():
-    city="gaya"
+    city="Tharad"
     print(city)
 a()
 
 # [-----------------------------------------------------]
 
 # Q-2
-school="Dav"
+school="Coding-Gita"
 def call():
     global school
     print(school)
@@ -19,23 +19,25 @@ call()
 # [-----------------------------------------------------]
 
 # Q-3
-apoorv=True
-if apoorv==True:
-    weather="sunny"
-print(weather)
+num=10
+if num > 0:
+    word="Hello"
+print(word)
 
 # [-----------------------------------------------------]
 
 # Q-4
 
 for i in range(0,2):
-    weather="Sunny as well as cloudy"
+    print(i)
     
-print(weather)
+print(i)
 
 # [-----------------------------------------------------]
 
 # Q-5
+
+Difference = "where does we can access variable it's called scope and how much time we can use varible it's called lifetime ."
 
 # [-----------------------------------------------------]
 
@@ -72,6 +74,7 @@ def a():
     b()
 a()
 
+# [-----------------------------------------------------]
 
 # Q-10
 
@@ -85,6 +88,8 @@ sub.append("CSS")
 sub[0] = "Maths"
 print(sub)
 
+# [-----------------------------------------------------]
+
 # Q-11
 
 count = 0
@@ -95,6 +100,8 @@ def increment():
 print(increment())
 print(increment())
 print(increment())
+
+# [-----------------------------------------------------]
 
 # Q-12
 
@@ -113,9 +120,13 @@ Out_put = """3
             2
             1"""
 
+# [-----------------------------------------------------]
+
 # Q-13
 
 ans = "for loop does not create a separate scope but list has it's own scope"
+
+# [-----------------------------------------------------]
 
 # Q-14
 def outer():
@@ -130,6 +141,10 @@ def outer():
 result = outer()
 result()
 
+# [-----------------------------------------------------]
+
 # Q-15
 
 ans = "it's already a keyword( Built - in Function) "
+
+# [-----------------------------------------------------]
