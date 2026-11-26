@@ -111,7 +111,7 @@
 # def power(n,m):
 #     if(m==0):
 #         return 1
-#     return n**m
+#     return n*power(n,m-1)
 # print(power(2,5))
 # print(power(9,0))
 # print(power(3,1))
@@ -125,6 +125,15 @@
 # print(count_digit(5382))
 # print(count_digit(6))
 # print(count_digit(0))
+
+# Q-12
+
+# def reverse_text(text):
+#     return text[::-1]
+
+# print(reverse_text("cat"))  # "tac"
+# print(reverse_text("akash"))    # "hsaka"
+# print(reverse_text(""))     # ""
 
 # Q-13
 
@@ -141,9 +150,9 @@
 # Q-14
 
 # def max_digit(n):
-#     if n==0:
-#         return 0
-#     return n%10
+#     if n<10:
+#         return n
+#     return max(n%10, max_digit(n//10))
 # print(max_digit(4729))
 # print(max_digit(0))
 # print(max_digit(555))
@@ -155,7 +164,7 @@
 #         return n
 #     return mystery(n-1)+mystery(n-2)
 # print(mystery(4))
-#print(mystery(0))
+# print(mystery(0))
 # print(mystery(1))
 # print(mystery(2))
  #sol: mystery(4)
